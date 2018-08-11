@@ -1,10 +1,10 @@
-var animals=[
-  {name:'cat', footNumber:4},
-  {name:'chicken', footNumber:2},
-  {name:'dog', footNumber:4}
+var animals = [
+  { name: 'cat', footNumber : 4 },
+  { name: 'chicken', footNumber: 2 },
+  { name: 'dog', footNumber: 4 }
 ];
 
-for(var i=0;i<animals.length;i++){
+for (var i=0; i<animals.length; i++){
   console.log(animals[i].name+':'+animals[i].footNumber+'\n');
 }
 
@@ -14,8 +14,8 @@ for(var animal of animals){
 }
 
 // for...in
-var myDog={
-  name:'4 chan',
+var myDog = {
+  name: '4 chan',
   age: 5,
   weight: 10
 };
@@ -45,26 +45,26 @@ animals.splice(1,0,{name:'duck', footNumber:2});
 var bigAnimal=[
   {name: 'elephant',footNumber:4}
 ];
-var tinyAnimal=[
+var tinyAnimal = [
   {name:'virus',footNumber:undefined}
 ];
-animals =animals.concat([{name:'mouse',footNumber:4},{name:'buffalo', footNumber:4}]);
-animals=animals.concat(bigAnimal,tinyAnimal);
+animals = animals.concat([{name:'mouse',footNumber:4},{name:'buffalo', footNumber:4}]);
+animals = animals.concat(bigAnimal,tinyAnimal);
 
 
 //slice: cut array -> create new array
-animals=animals.slice(0,1);
-animals=animals.slice(1);
+animals = animals.slice(0,1);
+animals = animals.slice(1);
 
 for (let key of animals){
   console.log(key.name,key.footNumber);
 }
 
 // toString
-const plants=['mango','orange','lemon','watermelon','strawberry'];
-let strPlants=plants.toString();
+const plants = ['mango','orange','lemon','watermelon','strawberry'];
+let strPlants = plants.toString();
 console.log(strPlants);
 
-var a=[1,2,5];
-var b=[8,9,10];
+var a = [1,2,5];
+var b = [8,9,10];
 a.concat(b);
