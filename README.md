@@ -1,4 +1,4 @@
-# JavaScript Starter
+# javascript
 
 > 👑☀️ Getting Started with JavaScript.
 
